@@ -1,0 +1,77 @@
+ 
+ * {
+  box-sizing: border-box;
+}
+
+ body{
+    text-align: center;
+    background-color: antiquewhite;
+    background-image: url("./body_bg_4_files/white-abstract-wallpaper_23-2148830029.jpg");
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+
+ }
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: solid black;
+    padding-top:7px;
+    box-sizing: border-box;
+    border-collapse:separate;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;    
+  justify-content: center; 
+  margin: auto;
+}
+
+.line {
+  display: flex;
+}
+
+.box.highlight {
+    background-color:gray;
+}
+.box img {
+    width: 90%;
+    height: 90%;
+    background-color: black
+        
+}
+button{
+    width: 120px;
+    height: 50px;
+    font-size: large;
+    background-color: rgb(220, 218, 215);
+}
+button:hover{
+    background-color: rgba(193, 191, 187, 0.84);
+}
+.box:hover{
+    background-color: rgba(108, 81, 81, 0.425);
+}
+
+.disable-hover:hover{
+    background-color: gray;
+    pointer-events: none;
+}
+
+.result p{
+    font-size:32px;
+    display: inline-block;
+    background-color: rgba(128, 128, 128, 0.337);
+    color: black;
+}
+
+.result{
+    text-align: center;
+}
+.button-hover-none:hover{
+        background-color: rgb(220, 218, 215);
+
+}

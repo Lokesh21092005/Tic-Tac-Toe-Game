@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <h1>Tic-Tac-Toe</h1>
+
+
+    <div class = "board">
+        <div class  = "line">
+        <div class = "box" id = "1" >
+            <img onclick = "chance(1)" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==">
+        </div>
+           
+        <div class = "box" id = "4">
+            <img onclick = "chance(4)" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==">
+        </div>
+
+        <div class = "box" id = "7">
+            <img onclick = "chance(7)" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==">
+        </div>
+    </div>
+
+
+    <div class = "line">
+        <div class = "box" id = "2">
+            <img onclick = "chance(2)" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==">
+        </div>
+
+        <div class = "box" id = "5">
+            <img onclick = "chance(5)" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==">
+        </div>
+
+        <div class = "box" id = "8">
+            <img onclick = "chance(8)" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==">
+        </div>
+    </div>
+
+
+    <div class = "line">
+        <div class = "box" id = "3">
+            <img onclick = "chance(3)" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==">
+        </div>
+
+        <div class = "box" id = "6">
+            <img onclick = "chance(6)" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==">
+        </div>
+
+        <div class = "box" id = "9">
+            <img onclick = "chance(9)" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==">
+        </div>
+    </div>
+    </div>
+    <div class = "result">
+        <p></p>
+    </div>
+    <button onclick="back()">Back</button>
+    <button onclick="newGame()">New Game</button>
+</body>
+</html>
